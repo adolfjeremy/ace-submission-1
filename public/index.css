@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-brand,
+.nav-link {
+    color: #000 !important;
+    font-weight: 500 !important;
+}
+
+.nav-link:hover {
+    font-weight: 700 !important;
+}
+header {
+    background-color: gray;
+    background-image: url(https://storage.googleapis.com/jeremy-1-352412.appspot.com/background.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 100px);
+}
+.profile_picture {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: gray;
+    background-image: url(https://storage.googleapis.com/jeremy-1-352412.appspot.com/pp.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#about img {
+    max-height: 400px;
+}
+
+#contact img {
+    width: 150px;
+}
+
+.social_link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
